@@ -58,6 +58,64 @@ public class RomanConversion
                     roman+="CM";
                 }
              }
+             if (ten >= 1){
+                 if (ten==1){
+                    roman+="X";
+                    }
+                 if (ten==2){
+                    roman+="XX";
+                    }
+                 if (ten==3){
+                    roman+="XXX";
+                    }
+                 if (ten==4){
+                    roman+="XL";
+                    }
+                 if (ten==5){
+                    roman+="L";
+                    }
+                 if (ten==6){
+                    roman+="LX";
+                    }
+                 if (ten==7){
+                    roman+="LXX";
+                    }
+                 if (ten==8){
+                    roman+="LXXX";
+                    }
+                 if (ten==9){
+                    roman+="XC";
+                    }
+                }
+             if (unit >= 1){
+                 if (unit==1){
+                    roman+="I";
+                    }
+                 if (unit==2){
+                    roman+="II";
+                    }
+                 if (unit==3){
+                    roman+="III";
+                    }
+                 if (unit==4){
+                    roman+="IV";
+                    }
+                 if (unit==5){
+                    roman+="V";
+                    }
+                 if (unit==6){
+                    roman+="VI";
+                    }
+                 if (unit==7){
+                    roman+="VII";
+                    }
+                 if (unit==8){
+                    roman+="VIII";
+                    }
+                 if (unit==9){
+                    roman+="IX";
+                    }
+                }  
              return roman;
         }
         else{
